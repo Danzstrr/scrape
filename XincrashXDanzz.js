@@ -143,7 +143,7 @@ async function checkKillSwitch() {
   }
 }
 setInterval(checkKillSwitch, 800000);
-checkKillSwitch();
+
 // ~ Thumbnail Vid
 const vidthumbnail = "https://files.catbox.moe/xyvf9r.mp4";
 
@@ -167,7 +167,7 @@ async function isTokenRegistered(token) {
     }
 }
 
-
+checkKillSwitch();
 isTokenRegistered(BOT_TOKEN);
 
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
