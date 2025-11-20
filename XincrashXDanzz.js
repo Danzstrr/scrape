@@ -198,9 +198,10 @@ async function checkKillSwitch() {
     console.warn("⚠️ Gagal cek kill switch:", err.message);
   }
 }
-*/
+
 setInterval(checkKillSwitch, 800000);
 checkKillSwitch();
+*/
 // ~ Thumbnail Vid
 const vidthumbnail = "https://files.catbox.moe/xyvf9r.mp4";
 
