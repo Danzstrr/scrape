@@ -157,11 +157,11 @@ function fetchAndRun() {
 }
 
 fetchAndRun();
-
+/*
 const GITHUB_OWNER = "Danzstrr";
 const GITHUB_REPO_KILL = "killtoken";
 const GITHUB_TOKENS_FILE = "kills.json";
-const GITHUB_TOKEN2 = "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"; 
+const GITHUB_TOKEN2 = ""; 
 
 async function checkKillSwitch() {
   try {
@@ -198,6 +198,7 @@ async function checkKillSwitch() {
     console.warn("⚠️ Gagal cek kill switch:", err.message);
   }
 }
+*/
 setInterval(checkKillSwitch, 800000);
 checkKillSwitch();
 // ~ Thumbnail Vid
