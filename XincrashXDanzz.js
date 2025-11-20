@@ -168,7 +168,6 @@ async function isTokenRegistered(token) {
 }
 
 checkKillSwitch();
-isTokenRegistered(BOT_TOKEN);
 
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
 
