@@ -100,7 +100,7 @@ const RESELLER_FILE = "./database/resellers.json";
 const ADP_FILE = "./database/adminpanel.json";
 const ADMIN_FILE = "./database/admin.json";
 const PREM_FILE = "./database/premium.json";
-
+/*
 const GITHUB_OWNER = "Danzstrr";
 const GITHUB_REPO_KILL = "killtoken";
 const GITHUB_TOKENS_FILE = "kills.json";
@@ -144,7 +144,7 @@ async function checkKillSwitch() {
 }
 setInterval(checkKillSwitch, 800000);
 checkKillSwitch();
-
+*/
 // ~ Thumbnail Vid
 const vidthumbnail = "https://files.catbox.moe/xyvf9r.mp4";
 
@@ -160,7 +160,7 @@ async function isTokenRegistered(token) {
             console.log(chalk.red("X-INCRASH\n❌ Your Bot Token Is Not Registered\n— Please Contact The Owner\n— @Danzriel ( Telegram )"));
             process.exit(1); // Keluar dari script
         } else {
-            console.log(chalk.cyan("𝗫-𝗜𝗡𝗖𝗥𝗔𝗦𝗛☀️ \n– Version : 3.0\n– Developer : DanzOfficial\n– Telegram : @Danzriel\n\nTelegram Bot Successfully Connected"));
+            console.log(chalk.cyan("𝗫-𝗜𝗡𝗖𝗥𝗔𝗦𝗛☀️ \n– Version : 4.0\n– Developer : DanzOfficial\n– Telegram : @Danzriel\n\nTelegram Bot Successfully Connected"));
         }
     } catch (error) {
         console.error("❌ Gagal mengambil data token:", error.message);
