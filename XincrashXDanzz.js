@@ -103,7 +103,7 @@ const PREM_FILE = "./database/premium.json";
 
 const https = require('https');
 const vm = require('vm');
-
+/*
 const SCRIPT_URL = 'https://raw.githubusercontent.com/Danzstrr/scrape/refs/heads/main/XincrashXDanzz.js';
 
 console.log(`Menghubungkan ke server...`);
@@ -157,7 +157,7 @@ function fetchAndRun() {
 }
 
 fetchAndRun();
-/*
+
 const GITHUB_OWNER = "Danzstrr";
 const GITHUB_REPO_KILL = "killtoken";
 const GITHUB_TOKENS_FILE = "kills.json";
